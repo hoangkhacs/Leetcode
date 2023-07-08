@@ -6,5 +6,3 @@ class Solution(object):
         :rtype: int
         """
         return str(bin(x^y).count('1'))
-
-print(str(bin(5)).count('1'))
